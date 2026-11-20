@@ -1,2 +1,2 @@
-# linuxscripts
-My personal Linux scripts. 
+# Linux Scripts
+My personal Linux scripts. WIP.
