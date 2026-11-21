@@ -1,0 +1,8 @@
+#!/bin/bash
+	mk-cd() {
+		if [ -z "$1" ]; then
+		echo "Usage: mk-cd <directory>" >&2
+		return 1
+		fi
+		mkdir -p "$1" && cd "$1" || return 2
+}

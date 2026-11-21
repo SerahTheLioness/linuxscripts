@@ -1,3 +1,4 @@
+#!/bin/bash
 apt update
 apt upgrade -y
 apt install -y micro lynis git curl wget rsync
